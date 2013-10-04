@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomCell.h
 //  ScrollViewInsideTableViewCellExperiment
 //
 //  Created by Marco Alves on 04/10/13.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@interface CustomCell : UITableViewCell
+
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 

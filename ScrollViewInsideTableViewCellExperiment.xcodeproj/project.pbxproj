@@ -21,6 +21,8 @@
 		85FBEB5617FEFBE3000E0A26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FBEB3817FEFBE2000E0A26 /* UIKit.framework */; };
 		85FBEB5E17FEFBE3000E0A26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85FBEB5C17FEFBE3000E0A26 /* InfoPlist.strings */; };
 		85FBEB6017FEFBE3000E0A26 /* ScrollViewInsideTableViewCellExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBEB5F17FEFBE3000E0A26 /* ScrollViewInsideTableViewCellExperimentTests.m */; };
+		85FBEB6B17FEFDC6000E0A26 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBEB6A17FEFDC6000E0A26 /* CustomCell.m */; };
+		85FBEB6D17FF012F000E0A26 /* Large.mc.arp.750pix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85FBEB6C17FF012F000E0A26 /* Large.mc.arp.750pix.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		85FBEB5B17FEFBE3000E0A26 /* ScrollViewInsideTableViewCellExperimentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewInsideTableViewCellExperimentTests-Info.plist"; sourceTree = "<group>"; };
 		85FBEB5D17FEFBE3000E0A26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85FBEB5F17FEFBE3000E0A26 /* ScrollViewInsideTableViewCellExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewInsideTableViewCellExperimentTests.m; sourceTree = "<group>"; };
+		85FBEB6917FEFDC6000E0A26 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		85FBEB6A17FEFDC6000E0A26 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		85FBEB6C17FF012F000E0A26 /* Large.mc.arp.750pix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Large.mc.arp.750pix.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +122,10 @@
 				85FBEB4617FEFBE2000E0A26 /* Main.storyboard */,
 				85FBEB4917FEFBE2000E0A26 /* ViewController.h */,
 				85FBEB4A17FEFBE2000E0A26 /* ViewController.m */,
+				85FBEB6917FEFDC6000E0A26 /* CustomCell.h */,
+				85FBEB6A17FEFDC6000E0A26 /* CustomCell.m */,
 				85FBEB4C17FEFBE2000E0A26 /* Images.xcassets */,
+				85FBEB6C17FF012F000E0A26 /* Large.mc.arp.750pix.jpg */,
 				85FBEB3B17FEFBE2000E0A26 /* Supporting Files */,
 			);
 			path = ScrollViewInsideTableViewCellExperiment;
@@ -231,6 +239,7 @@
 				85FBEB4D17FEFBE2000E0A26 /* Images.xcassets in Resources */,
 				85FBEB3F17FEFBE2000E0A26 /* InfoPlist.strings in Resources */,
 				85FBEB4817FEFBE2000E0A26 /* Main.storyboard in Resources */,
+				85FBEB6D17FF012F000E0A26 /* Large.mc.arp.750pix.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 			files = (
 				85FBEB4B17FEFBE2000E0A26 /* ViewController.m in Sources */,
 				85FBEB4517FEFBE2000E0A26 /* AppDelegate.m in Sources */,
+				85FBEB6B17FEFDC6000E0A26 /* CustomCell.m in Sources */,
 				85FBEB4117FEFBE2000E0A26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
